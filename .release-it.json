@@ -1,6 +1,8 @@
 {
   "github": {
-    "tokenRef": "GITHUB_TOKEN"
+    "tokenRef": "GITHUB_TOKEN",
+    "release": true,
+    "assets": "dist/index.js"
   },
   "prompt": {
     "src": {

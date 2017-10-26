@@ -12,7 +12,7 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     library: 'SwaggerUICornify',
     libraryTarget: 'umd',
-    filename: 'index.js'
+    filename: 'swagger-ui-cornify.min.js'
   },
 
   externals: (ctx, req, next) => {

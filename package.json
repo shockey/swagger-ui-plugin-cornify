@@ -1,9 +1,9 @@
 {
   "name": "swagger-ui-cornify",
-  "version": "2.0.0-beta.0",
+  "version": "2.0.0-beta.1",
   "author": "Kyle Shockey <kyleshockey@gmail.com>",
   "description": "Cornify plugin for Swagger-UI v3",
-  "main": "dist/index.js",
+  "main": "dist/swagger-ui-cornify.min.js",
   "scripts": {
     "test": "exit 0",
     "build": "webpack -p --config webpack.config.js",
