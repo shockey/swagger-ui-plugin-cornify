@@ -1,4 +1,4 @@
-import cornify from "cornified"
+// import cornify from "cornified"
 
 let intervalId = null
 
@@ -22,7 +22,7 @@ function updateJsonSpec(originalAction) {
   }
 }
 
-export default function() {
+export default function SwaggerUICornify() {
   return {
     statePlugins: {
       spec: {
