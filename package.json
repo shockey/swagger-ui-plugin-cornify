@@ -1,0 +1,40 @@
+{
+  "name": "swagger-ui-cornify",
+  "version": "1.0.0",
+  "author": "",
+  "description": "Cornify plugin for Swagger-UI v3",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shockey/swagger-ui-cornify.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shockey/swagger-ui-cornify/issues"
+  },
+  "homepage": "https://github.com/shockey/swagger-ui-cornify#readme",
+  "dependencies": {
+    "cornified": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "4",
+            "browsers": "ie 11"
+          }
+        }
+      ]
+    ]
+  }
+}
