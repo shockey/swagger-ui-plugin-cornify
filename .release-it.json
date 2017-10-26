@@ -2,7 +2,10 @@
   "github": {
     "tokenRef": "GITHUB_TOKEN",
     "release": true,
-    "assets": "dist/index.js"
+    "assets": "dist/swagger-ui-cornify.min.js"
+  },
+  "npm": {
+    "publish": true
   },
   "prompt": {
     "src": {
