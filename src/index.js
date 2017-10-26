@@ -1,4 +1,4 @@
-// import cornify from "cornified"
+import cornify from "cornified"
 
 let intervalId = null
 

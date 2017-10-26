@@ -1,5 +1,11 @@
 {
   "github": {
     "tokenRef": "GITHUB_TOKEN"
-  }
+  },
+  "prompt": {
+    "src": {
+      "status": true
+    }
+  },
+  "buildCommand": "npm run build"
 }
