@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/swagger-ui-cornify.svg)](https://badge.fury.io/js/swagger-ui-cornify)
+
 # swagger-ui-cornify
 
 Cornify plugin for Swagger-UI v3.
