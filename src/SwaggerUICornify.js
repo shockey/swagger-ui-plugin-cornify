@@ -22,7 +22,7 @@ function updateJsonSpec(originalAction) {
   }
 }
 
-export default function SwaggerUICornify() {
+module.exports = function SwaggerUICornify() {
   return {
     statePlugins: {
       spec: {

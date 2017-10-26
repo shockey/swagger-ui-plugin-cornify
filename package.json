@@ -1,6 +1,6 @@
 {
   "name": "swagger-ui-cornify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "",
   "description": "Cornify plugin for Swagger-UI v3",
   "main": "dist/SwaggerUICornify.js",
