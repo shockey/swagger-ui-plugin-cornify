@@ -24,3 +24,13 @@ SwaggerUI({
 ```
 
 If/when the API definition you're viewing contains an `x-cornify: true` statement, magic will happen.
+
+### In action
+
+Before:
+
+￼￼![Before](https://user-images.githubusercontent.com/680248/32127269-764ed80c-bb2a-11e7-9ef4-222511cc2b82.png)
+
+After:
+
+![After](https://user-images.githubusercontent.com/680248/32127293-a467d95a-bb2a-11e7-89e1-7f32b026d78e.png)
