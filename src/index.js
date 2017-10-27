@@ -2,7 +2,7 @@ import cornify from "cornified"
 
 // Override the Cornified default style
 
-var css = '.cornified { z-index: 100000000; }',
+var css = '.cornify { z-index: 100000000; }',
     head = document.head || document.getElementsByTagName('head')[0],
     style = document.createElement('style');
 
@@ -26,7 +26,7 @@ function updateJsonSpec(originalAction) {
     if(spec && spec["x-cornify"] && spec["x-cornify"] === true) {
       if(intervalId === null) {
         intervalId = setInterval(() => {
-          if(document.querySelectorAll('.cornified').length > 24) {
+          if(document.querySelectorAll('.cornify').length > 24) {
             clearInterval(intervalId)
             intervalId = null
             return
